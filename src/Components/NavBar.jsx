@@ -22,7 +22,7 @@ export const NavBar = () => {
             className="justify-content-end"
           >
             <Nav className="align-items-center">
-              <Nav.Link href="#home" as={Link} to="Home">
+              <Nav.Link href="#home" as={Link} to="/">
                 Home
               </Nav.Link>
               <Nav.Link href="#Services" >

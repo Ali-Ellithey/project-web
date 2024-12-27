@@ -66,14 +66,13 @@ img {
 }
 /* End navBar */
 /* Start Home-sidler */
-.home {
-}
+
 .home img {
   filter: brightness(0.3);
   width: 100% !important;
   height: 700px !important;
   background-size: cover;
-  padding-top: 40px;
+  padding-top: 20px;
   background-position: center;
 }
 .carousel-caption {
