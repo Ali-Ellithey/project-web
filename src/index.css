@@ -73,13 +73,14 @@ img {
   width: 100% !important;
   height: 700px !important;
   background-size: cover;
-  padding-top: 45px;
+  padding-top: 40px;
   background-position: center;
 }
 .carousel-caption {
   text-align: left !important;
   width: 50%;
-  top: 15%;
+  top: 30%;
+  padding-top: 50px;
 }
 
 .carousel-caption h1 {
