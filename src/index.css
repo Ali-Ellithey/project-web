@@ -73,6 +73,7 @@ img {
   width: 100% !important;
   height: 700px !important;
   background-size: cover;
+  padding-top: 45px;
   background-position: center;
 }
 .carousel-caption {
