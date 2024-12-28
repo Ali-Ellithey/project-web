@@ -44,6 +44,7 @@ img {
   top: 0;
   width: 100%;
   z-index: 100;
+  overflow: hidden;
 }
 .navBar img {
   width: 150px !important;
@@ -79,6 +80,8 @@ img {
   background-size: cover;
   padding-top: 0px;
   background-position: center;
+  padding-top: 20px;
+  object-fit: fill;
 }
 .carousel-caption {
   text-align: left !important;
