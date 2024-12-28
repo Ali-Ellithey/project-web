@@ -66,9 +66,9 @@ img {
 }
 @media (max-width: 992px) {
   /* For mobile view */
- .navbar-nav {
-  width: 100%;
- }
+  .navbar-nav {
+    width: 100%;
+  }
 }
 /* End navBar */
 /* Start Home-sidler */
@@ -122,7 +122,7 @@ img {
   .carousel-caption {
     top: auto !important;
     font-weight: bold;
-    width: 80%;
+    width: auto;
   }
 }
 /* End Home-sidler */
