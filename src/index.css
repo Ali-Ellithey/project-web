@@ -38,21 +38,33 @@ img {
   outline: none !important;
 }
 /* start navBar */
-/* .nave{
+.nave{
   width: 100%;
+<<<<<<< HEAD
 } */
+=======
+}
+>>>>>>> 9804d50dd4f948a9d50f273982b4d150610fe067
 .nave .Container {
   display: flex;
   flex-wrap: inherit;
   align-items: center;
   justify-content: space-between;
+<<<<<<< HEAD
 }
+=======
+
+>>>>>>> 9804d50dd4f948a9d50f273982b4d150610fe067
 .navBar {
   background-color: var(--main-color);
   position: fixed;
   top: 0;
   width: 100%;
+<<<<<<< HEAD
   z-index: 100;
+=======
+   z-index: 100; 
+>>>>>>> 9804d50dd4f948a9d50f273982b4d150610fe067
 }
 .navBar img {
   width: 150px !important;
@@ -76,7 +88,11 @@ img {
 @media (max-width: 992px) {
   /* For mobile view */
   .navbar-nav {
+<<<<<<< HEAD
     display: flex;
+=======
+   display: flex;
+>>>>>>> 9804d50dd4f948a9d50f273982b4d150610fe067
   }
 }
 /* End navBar */
