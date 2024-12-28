@@ -38,14 +38,12 @@ img {
   outline: none !important;
 }
 /* start navBar */
-
-
->>>>>>> 9804d50dd4f948a9d50f273982b4d150610fe067
 .navBar {
   background-color: var(--main-color);
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 100;
 }
 .navBar img {
   width: 150px !important;
@@ -69,11 +67,6 @@ img {
 @media (max-width: 992px) {
   /* For mobile view */
   .navbar-nav {
-<<<<<<< HEAD
-    display: flex;
-=======
-   display: flex;
->>>>>>> 9804d50dd4f948a9d50f273982b4d150610fe067
   }
 }
 /* End navBar */
@@ -117,7 +110,7 @@ img {
   gap: 10px;
   margin-right: 20px;
 }
-.btBg #contactbtn{
+.btBg #contactbtn {
   background-color: var(--thired-color) !important;
   padding: 10px 10px;
 }
