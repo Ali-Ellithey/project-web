@@ -38,21 +38,7 @@ img {
   outline: none !important;
 }
 /* start navBar */
-.nave{
-  width: 100%;
-<<<<<<< HEAD
-} */
-=======
-}
->>>>>>> 9804d50dd4f948a9d50f273982b4d150610fe067
-.nave .Container {
-  display: flex;
-  flex-wrap: inherit;
-  align-items: center;
-  justify-content: space-between;
-<<<<<<< HEAD
-}
-=======
+
 
 >>>>>>> 9804d50dd4f948a9d50f273982b4d150610fe067
 .navBar {
@@ -60,11 +46,6 @@ img {
   position: fixed;
   top: 0;
   width: 100%;
-<<<<<<< HEAD
-  z-index: 100;
-=======
-   z-index: 100; 
->>>>>>> 9804d50dd4f948a9d50f273982b4d150610fe067
 }
 .navBar img {
   width: 150px !important;
