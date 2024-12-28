@@ -64,6 +64,12 @@ img {
 .navbar-toggler {
   background-color: white !important;
 }
+@media (max-width: 992px) {
+  /* For mobile view */
+ .navbar-nav {
+  width: 100%;
+ }
+}
 /* End navBar */
 /* Start Home-sidler */
 
@@ -72,14 +78,13 @@ img {
   width: 100% !important;
   height: 700px !important;
   background-size: cover;
-  padding-top: 20px;
+  padding-top: 0px;
   background-position: center;
 }
 .carousel-caption {
   text-align: left !important;
-  width: 50%;
+  width: 40%;
   top: 30%;
-  padding-top: 50px;
 }
 
 .carousel-caption h1 {
@@ -107,10 +112,17 @@ img {
   margin-right: 10px;
 }
 @media (max-width: 992px) {
+  .home {
+    margin-top: 0px;
+    padding: 0px;
+    height: auto;
+    background-image: none;
+    width: 100%;
+  }
   .carousel-caption {
     top: auto !important;
     font-weight: bold;
-    width: 85%;
+    width: 80%;
   }
 }
 /* End Home-sidler */
