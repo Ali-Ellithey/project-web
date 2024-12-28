@@ -16,16 +16,24 @@ function BusinessSolutions() {
             Investments
           </h1>
           <div className="buttons">
-            <motion.button whileTap={{ scale: 0.85 }} className="motion-button">
-              <Button variant="success" size="lg" className="btBg">
-                Discover More
-              </Button>
-            </motion.button>
-            <motion.button whileTap={{ scale: 0.85 }} className="motion-button">
-              <Button variant="success" size="lg">
-                Contact
-              </Button>
-            </motion.button>
+          <div className="btBg">
+                <motion.button
+                  whileTap={{ scale: 0.85 }}
+                  className="motion-button"
+                >
+                  <Button  id="discover" variant="success" size="lg">
+                    Discover More
+                  </Button>
+                </motion.button>
+                <motion.button
+                  whileTap={{ scale: 0.85 }}
+                  className="motion-button"
+                >
+                  <Button variant="success" id="contactbtn" size="lg">
+                    Contact
+                  </Button>
+                </motion.button>
+              </div>
           </div>
         </div>
       </Container>

@@ -3,7 +3,7 @@ import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/esm/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 import { Zoom } from "react-awesome-reveal";
 
 export const AboutUS = () => {
@@ -106,7 +106,7 @@ export const AboutUS = () => {
                   whileTap={{ scale: 0.85 }}
                   className="motion-button"
                 >
-                  <Button variant="success" size="lg" className="btBg">
+                  <Button id="discover" variant="success" size="lg">
                     Discover More
                   </Button>
                 </motion.button>

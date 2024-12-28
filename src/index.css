@@ -38,12 +38,21 @@ img {
   outline: none !important;
 }
 /* start navBar */
+/* .nave{
+  width: 100%;
+} */
+/* .nave .Container {
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-between;
+} */
 .navBar {
   background-color: var(--main-color);
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 100;
+  /* z-index: 100; */
 }
 .navBar img {
   width: 150px !important;
@@ -106,18 +115,24 @@ img {
   background-color: #f3f4f8;
   border-radius: 5px !important;
 }
-
 .btBg {
+  display: flex;
+  gap: 10px;
+  margin-right: 20px;
+}
+.btBg #contactbtn{
+  background-color: var(--thired-color) !important;
+  padding: 10px 10px;
+}
+
+.btBg #discover {
   background-color: var(--scond-color) !important;
   margin-right: 10px;
 }
 @media (max-width: 992px) {
-  .home {
-    margin-top: 0px;
-    padding: 0px;
-    height: auto;
-    background-image: none;
-    width: 100%;
+  .btBg {
+    margin-right: 0px;
+    gap: 1px !important;
   }
   .carousel-caption {
     top: auto !important;
